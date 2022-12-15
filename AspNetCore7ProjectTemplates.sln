@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core gRPC Service",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core with Angular", "ASP.NET Core with Angular\ASP.NET Core with Angular.csproj", "{57519DED-C486-4090-A362-2FCA3FBEF49D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core with React.js", "ASP.NET Core with React.js\ASP.NET Core with React.js.csproj", "{E393884E-F015-435F-B2A5-29F6C3B7025D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{57519DED-C486-4090-A362-2FCA3FBEF49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57519DED-C486-4090-A362-2FCA3FBEF49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57519DED-C486-4090-A362-2FCA3FBEF49D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E393884E-F015-435F-B2A5-29F6C3B7025D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E393884E-F015-435F-B2A5-29F6C3B7025D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E393884E-F015-435F-B2A5-29F6C3B7025D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E393884E-F015-435F-B2A5-29F6C3B7025D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
