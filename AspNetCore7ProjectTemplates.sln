@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core Web App", "ASP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core Web App without Top-Level Statements", "ASP.NET Core Web App without Top-Level Statements\ASP.NET Core Web App without Top-Level Statements.csproj", "{27310042-A1CB-4F2F-805D-CD4211A89040}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core Web App (Model-View-Controller)", "ASP.NET Core Web App (Model-View-Controller)\ASP.NET Core Web App (Model-View-Controller).csproj", "{29CF14EB-28C7-4C4F-9345-B45A856A726D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core Web App (Model-View-Controller) without Top-Level Statements", "ASP.NET Core Web App (Model-View-Controller) without Top-Level Statements\ASP.NET Core Web App (Model-View-Controller) without Top-Level Statements.csproj", "{A6C57833-FE7D-4BB8-9375-7DA0947BC48B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,14 @@ Global
 		{27310042-A1CB-4F2F-805D-CD4211A89040}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27310042-A1CB-4F2F-805D-CD4211A89040}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27310042-A1CB-4F2F-805D-CD4211A89040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29CF14EB-28C7-4C4F-9345-B45A856A726D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29CF14EB-28C7-4C4F-9345-B45A856A726D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29CF14EB-28C7-4C4F-9345-B45A856A726D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29CF14EB-28C7-4C4F-9345-B45A856A726D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6C57833-FE7D-4BB8-9375-7DA0947BC48B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C57833-FE7D-4BB8-9375-7DA0947BC48B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C57833-FE7D-4BB8-9375-7DA0947BC48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C57833-FE7D-4BB8-9375-7DA0947BC48B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
