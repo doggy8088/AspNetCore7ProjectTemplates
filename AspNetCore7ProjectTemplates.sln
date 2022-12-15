@@ -11,35 +11,37 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core Empty", "ASP.NET Core Empty\ASP.NET Core Empty.csproj", "{DB98CD6E-A406-4E23-B26A-3D380F76E47E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NET Core Empty", "ASP.NET Core Empty\ASP.NET Core Empty.csproj", "{DB98CD6E-A406-4E23-B26A-3D380F76E47E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core Empty without Top-Level Statements", "ASP.NET Core Empty without Top-Level Statements\ASP.NET Core Empty without Top-Level Statements.csproj", "{FCDDCEDB-73A5-4237-8995-8282441EE14A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NET Core Empty without Top-Level Statements", "ASP.NET Core Empty without Top-Level Statements\ASP.NET Core Empty without Top-Level Statements.csproj", "{FCDDCEDB-73A5-4237-8995-8282441EE14A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core Web App", "ASP.NET Core Web App\ASP.NET Core Web App.csproj", "{40D6F238-F80F-4A02-9E11-4010ACC98463}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NET Core Web App", "ASP.NET Core Web App\ASP.NET Core Web App.csproj", "{40D6F238-F80F-4A02-9E11-4010ACC98463}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core Web App without Top-Level Statements", "ASP.NET Core Web App without Top-Level Statements\ASP.NET Core Web App without Top-Level Statements.csproj", "{27310042-A1CB-4F2F-805D-CD4211A89040}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NET Core Web App without Top-Level Statements", "ASP.NET Core Web App without Top-Level Statements\ASP.NET Core Web App without Top-Level Statements.csproj", "{27310042-A1CB-4F2F-805D-CD4211A89040}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core Web App (Model-View-Controller)", "ASP.NET Core Web App (Model-View-Controller)\ASP.NET Core Web App (Model-View-Controller).csproj", "{29CF14EB-28C7-4C4F-9345-B45A856A726D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NET Core Web App (Model-View-Controller)", "ASP.NET Core Web App (Model-View-Controller)\ASP.NET Core Web App (Model-View-Controller).csproj", "{29CF14EB-28C7-4C4F-9345-B45A856A726D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core Web App (Model-View-Controller) without Top-Level Statements", "ASP.NET Core Web App (Model-View-Controller) without Top-Level Statements\ASP.NET Core Web App (Model-View-Controller) without Top-Level Statements.csproj", "{A6C57833-FE7D-4BB8-9375-7DA0947BC48B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NET Core Web App (Model-View-Controller) without Top-Level Statements", "ASP.NET Core Web App (Model-View-Controller) without Top-Level Statements\ASP.NET Core Web App (Model-View-Controller) without Top-Level Statements.csproj", "{A6C57833-FE7D-4BB8-9375-7DA0947BC48B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core Web API with Controllers and OpenAPI support", "ASP.NET Core Web API with Controllers and OpenAPI support\ASP.NET Core Web API with Controllers and OpenAPI support.csproj", "{A3FC1780-0530-4D2F-8177-393992F4AC80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NET Core Web API with Controllers and OpenAPI support", "ASP.NET Core Web API with Controllers and OpenAPI support\ASP.NET Core Web API with Controllers and OpenAPI support.csproj", "{A3FC1780-0530-4D2F-8177-393992F4AC80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core Web API with Minimal APIs and OpenAPI support", "ASP.NET Core Web API with Minimal APIs and OpenAPI support\ASP.NET Core Web API with Minimal APIs and OpenAPI support.csproj", "{9B8D05B5-B2EA-4746-8DD9-EE49D66821EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NET Core Web API with Minimal APIs and OpenAPI support", "ASP.NET Core Web API with Minimal APIs and OpenAPI support\ASP.NET Core Web API with Minimal APIs and OpenAPI support.csproj", "{9B8D05B5-B2EA-4746-8DD9-EE49D66821EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core gRPC Service", "ASP.NET Core gRPC Service\ASP.NET Core gRPC Service.csproj", "{67A5571D-BF64-444C-9820-BFA9A3AC759E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NET Core gRPC Service", "ASP.NET Core gRPC Service\ASP.NET Core gRPC Service.csproj", "{67A5571D-BF64-444C-9820-BFA9A3AC759E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core with Angular", "ASP.NET Core with Angular\ASP.NET Core with Angular.csproj", "{57519DED-C486-4090-A362-2FCA3FBEF49D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NET Core with Angular", "ASP.NET Core with Angular\ASP.NET Core with Angular.csproj", "{57519DED-C486-4090-A362-2FCA3FBEF49D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core with React.js", "ASP.NET Core with React.js\ASP.NET Core with React.js.csproj", "{E393884E-F015-435F-B2A5-29F6C3B7025D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NET Core with React.js", "ASP.NET Core with React.js\ASP.NET Core with React.js.csproj", "{E393884E-F015-435F-B2A5-29F6C3B7025D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor Server App", "Blazor Server App\Blazor Server App.csproj", "{C2768D6E-B86D-4B52-8DA2-3FFA9E17CE6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor Server App", "Blazor Server App\Blazor Server App.csproj", "{C2768D6E-B86D-4B52-8DA2-3FFA9E17CE6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor Server App Empty", "Blazor Server App Empty\Blazor Server App Empty.csproj", "{06F600A0-0039-42DC-9026-F0CC9690F780}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor Server App Empty", "Blazor Server App Empty\Blazor Server App Empty.csproj", "{06F600A0-0039-42DC-9026-F0CC9690F780}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor WebAssembly App Empty", "Blazor WebAssembly App Empty\Blazor WebAssembly App Empty.csproj", "{098EAD97-1FE2-4B9F-A583-EA106A9BC2D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor WebAssembly App Empty", "Blazor WebAssembly App Empty\Blazor WebAssembly App Empty.csproj", "{098EAD97-1FE2-4B9F-A583-EA106A9BC2D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor WebAssembly App", "Blazor WebAssembly App\Blazor WebAssembly App.csproj", "{235CEE1F-B94A-468D-8BCF-ADAF6235AF3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor WebAssembly App", "Blazor WebAssembly App\Blazor WebAssembly App.csproj", "{235CEE1F-B94A-468D-8BCF-ADAF6235AF3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core Web API with Windows Authentication", "ASP.NET Core Web API with Windows Authentication\ASP.NET Core Web API with Windows Authentication.csproj", "{6F0853C1-7699-47BA-B750-E171CC3086A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -107,6 +109,10 @@ Global
 		{235CEE1F-B94A-468D-8BCF-ADAF6235AF3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{235CEE1F-B94A-468D-8BCF-ADAF6235AF3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{235CEE1F-B94A-468D-8BCF-ADAF6235AF3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F0853C1-7699-47BA-B750-E171CC3086A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F0853C1-7699-47BA-B750-E171CC3086A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F0853C1-7699-47BA-B750-E171CC3086A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F0853C1-7699-47BA-B750-E171CC3086A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
