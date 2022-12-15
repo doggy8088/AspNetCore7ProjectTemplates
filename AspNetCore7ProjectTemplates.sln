@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core Empty", "ASP.N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core Empty without Top-Level Statements", "ASP.NET Core Empty without Top-Level Statements\ASP.NET Core Empty without Top-Level Statements.csproj", "{FCDDCEDB-73A5-4237-8995-8282441EE14A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core Web App", "ASP.NET Core Web App\ASP.NET Core Web App.csproj", "{40D6F238-F80F-4A02-9E11-4010ACC98463}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core Web App without Top-Level Statements", "ASP.NET Core Web App without Top-Level Statements\ASP.NET Core Web App without Top-Level Statements.csproj", "{27310042-A1CB-4F2F-805D-CD4211A89040}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,14 @@ Global
 		{FCDDCEDB-73A5-4237-8995-8282441EE14A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCDDCEDB-73A5-4237-8995-8282441EE14A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCDDCEDB-73A5-4237-8995-8282441EE14A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40D6F238-F80F-4A02-9E11-4010ACC98463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40D6F238-F80F-4A02-9E11-4010ACC98463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40D6F238-F80F-4A02-9E11-4010ACC98463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40D6F238-F80F-4A02-9E11-4010ACC98463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27310042-A1CB-4F2F-805D-CD4211A89040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27310042-A1CB-4F2F-805D-CD4211A89040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27310042-A1CB-4F2F-805D-CD4211A89040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27310042-A1CB-4F2F-805D-CD4211A89040}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
