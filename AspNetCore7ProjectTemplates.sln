@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core Web API with M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core gRPC Service", "ASP.NET Core gRPC Service\ASP.NET Core gRPC Service.csproj", "{67A5571D-BF64-444C-9820-BFA9A3AC759E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core with Angular", "ASP.NET Core with Angular\ASP.NET Core with Angular.csproj", "{57519DED-C486-4090-A362-2FCA3FBEF49D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{67A5571D-BF64-444C-9820-BFA9A3AC759E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67A5571D-BF64-444C-9820-BFA9A3AC759E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67A5571D-BF64-444C-9820-BFA9A3AC759E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57519DED-C486-4090-A362-2FCA3FBEF49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57519DED-C486-4090-A362-2FCA3FBEF49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57519DED-C486-4090-A362-2FCA3FBEF49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57519DED-C486-4090-A362-2FCA3FBEF49D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
