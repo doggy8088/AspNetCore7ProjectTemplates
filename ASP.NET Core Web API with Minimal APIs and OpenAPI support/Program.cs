@@ -1,9 +1,15 @@
+using ASP.NET_Core_Web_API_with_Minimal_APIs_and_OpenAPI_support.Models;
+using ASP.NET_Core_Web_API_with_Minimal_APIs_and_OpenAPI_support;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddSqlServer<ContosoUniversityContext>(
+    builder.Configuration.GetConnectionString("DefaultConnection"));
 
 var app = builder.Build();
 
@@ -35,6 +41,8 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast")
 .WithOpenApi();
+
+app.MapCourseEndpoints();
 
 app.Run();
 
