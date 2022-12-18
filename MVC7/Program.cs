@@ -1,4 +1,5 @@
 using MVC7.Models;
+using MVC7.Endpoints;
 
 namespace MVC7
 {
@@ -13,6 +14,10 @@ namespace MVC7
 
             builder.Services.AddSqlServer<ContosoUniversityContext>(builder.Configuration.GetConnectionString("DefaultConnection"));
 
+            builder.Services.AddEndpointsApiExplorer();
+
+            builder.Services.AddSwaggerGen();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -22,6 +27,12 @@ namespace MVC7
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            if (app.Environment.IsDevelopment())
+            {
+                app.UseSwagger();
+                app.UseSwaggerUI();
+            };
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
@@ -33,6 +44,8 @@ namespace MVC7
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
+
+            app.MapCourseEndpoints();
 
             app.Run();
         }
