@@ -11,6 +11,8 @@ namespace MVC7
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
+            builder.Services.AddSqlServer<ContosoUniversityContext>(builder.Configuration.GetConnectionString("DefaultConnection"));
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
